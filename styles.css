@@ -1,9 +1,18 @@
+@import url(https://fonts.googleapis.com/css?family=Outfit);
+
 body {
-    background: orange;
+    background: hsl(217, 54%, 11%);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
 }
 
-.container {
-    background: blue;
+.card {
+    background: hsl(216, 50%, 16%);
+}
+
+.equilibrium {
+    width: 300px;
+    height: 300px;
 }
 
 .text {
@@ -24,4 +33,9 @@ body {
 
 .footer {
     background: cyan;
+}
+
+.author {
+    width: 30px;
+    height: 30px;
 }
