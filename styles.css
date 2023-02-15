@@ -25,7 +25,6 @@ body {
 
   padding: 20px;
   border-radius: 20px;
-
 }
 
 .equilibrium {
@@ -39,6 +38,7 @@ body {
 }
 
 .header {
+  color:hsl(0, 0%, 100%);
   font-size: 22px;
   font-weight: 400px;
 }
@@ -48,6 +48,7 @@ body {
   children still have to be declared as a flex item. */
   display: flex;
   justify-content: space-between;
+  padding-bottom: 10px;
 }
 
 .info .left {
@@ -57,7 +58,7 @@ body {
 
   color: hsl(178, 100%, 50%);
   font-weight: 900px;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .info .right{
@@ -65,7 +66,7 @@ body {
   align-items: center;
   gap: 5px;
 
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .footer {
@@ -74,11 +75,17 @@ body {
   gap: 10px;
 
   font-size: 15px;
+
+  border-top: 1px solid hsl(215, 51%, 70%);
 }
 
 .author {
   width: 30px;
   height: 30px;
+  border: 1px solid hsl(0, 0%, 100%);
+  
+  /* Wraps the border around the image. */
+  border-radius: 100px;
 }
 
 .name {
