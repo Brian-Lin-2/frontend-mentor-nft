@@ -2,17 +2,18 @@
 
 body {
   background: hsl(217, 54%, 11%);
+  color: hsl(215, 51%, 70%);
   font-size: 18px;
   font-family: 'Outfit', sans-serif;
-  color: hsl(215, 51%, 70%);
   font-weight: 300px;
 }
 
 .container {
-  background: white;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  background: white;
 
   /* 100vh means 100% of viewport height. */
   min-height: 100vh;
@@ -20,6 +21,9 @@ body {
 
 .card {
   background: hsl(216, 50%, 16%);
+
+  /* Width is only as wide as image. */
+  max-width: 300px;
   max-height: 75vh;
 }
 
@@ -51,9 +55,10 @@ body {
   display: flex;
   align-items: center;
   gap: 5px;
+
   background: yellow;
-  font-weight: 900px;
   color: hsl(178, 100%, 50%);
+  font-weight: 900px;
   font-size: 15px;
 }
 
@@ -61,6 +66,7 @@ body {
   display: flex;
   align-items: center;
   gap: 5px;
+
   background: green;
   font-size: 15px;
 }
@@ -69,6 +75,7 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
+  
   background: cyan;
   font-size: 15px;
 }
