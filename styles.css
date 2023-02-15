@@ -1,58 +1,67 @@
 @import url(https://fonts.googleapis.com/css?family=Outfit);
 
 body {
-    background: hsl(217, 54%, 11%);
-    font-size: 18px;
-    font-family: 'Outfit', sans-serif;
-    color: hsl(215, 51%, 70%);
-    font-weight: 300px;
+  background: hsl(217, 54%, 11%);
+  font-size: 18px;
+  font-family: 'Outfit', sans-serif;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300px;
+}
+
+.container {
+  background: white;
+  display: flex;
+  justify-content: center;
+
+  /* 100vh means 100% of viewport height. */
+  min-height: 100vh;
 }
 
 .card {
-    background: hsl(216, 50%, 16%);
+  background: hsl(216, 50%, 16%);
 }
 
 .equilibrium {
-    width: 300px;
-    height: 300px;
+  width: 300px;
+  height: 300px;
 }
 
 .text {
-    background: gray;
+  background: gray;
 }
 
 .header {
-    color: hsl(0, 0%, 100%);
-    font-size: 20px;
-    font-weight: 400px;
+  color: hsl(0, 0%, 100%);
+  font-size: 20px;
+  font-weight: 400px;
 }
 
 .info {
-    background: purple;
+  background: purple;
 }
 
 .info .left {
-    background: yellow;
-    font-weight: 900px;
-    color: hsl(178, 100%, 50%);
-    font-size: 15px;
+  background: yellow;
+  font-weight: 900px;
+  color: hsl(178, 100%, 50%);
+  font-size: 15px;
 }
 
 .info .right{
-    background: green;
-    font-size: 15px;
+  background: green;
+  font-size: 15px;
 }
 
 .footer {
-    background: cyan;
-    font-size: 15px;
+  background: cyan;
+  font-size: 15px;
 }
 
 .author {
-    width: 30px;
-    height: 30px;
+  width: 30px;
+  height: 30px;
 }
 
 .name {
-    color:hsl(0, 0%, 100%);
+  color:hsl(0, 0%, 100%);
 }
