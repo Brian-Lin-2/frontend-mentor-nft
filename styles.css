@@ -12,6 +12,7 @@ body {
   background: white;
   display: flex;
   justify-content: center;
+  align-items: center;
 
   /* 100vh means 100% of viewport height. */
   min-height: 100vh;
@@ -19,6 +20,7 @@ body {
 
 .card {
   background: hsl(216, 50%, 16%);
+  max-height: 75vh;
 }
 
 .equilibrium {
@@ -38,9 +40,17 @@ body {
 
 .info {
   background: purple;
+
+  /* Even if parent is a flexbox,
+  children still have to be declared as a flex item. */
+  display: flex;
+  justify-content: space-between;
 }
 
 .info .left {
+  display: flex;
+  align-items: center;
+  gap: 5px;
   background: yellow;
   font-weight: 900px;
   color: hsl(178, 100%, 50%);
@@ -48,11 +58,17 @@ body {
 }
 
 .info .right{
+  display: flex;
+  align-items: center;
+  gap: 5px;
   background: green;
   font-size: 15px;
 }
 
 .footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   background: cyan;
   font-size: 15px;
 }
