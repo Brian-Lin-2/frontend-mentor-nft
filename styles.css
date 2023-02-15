@@ -3,7 +3,6 @@
 body {
   background: hsl(217, 54%, 11%);
   color: hsl(215, 51%, 70%);
-  font-size: 18px;
   font-family: 'Outfit', sans-serif;
   font-weight: 300px;
 }
@@ -12,8 +11,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  background: white;
 
   /* 100vh means 100% of viewport height. */
   min-height: 100vh;
@@ -25,26 +22,28 @@ body {
   /* Width is only as wide as image. */
   max-width: 300px;
   max-height: 75vh;
+
+  padding: 20px;
+  border-radius: 20px;
+
 }
 
 .equilibrium {
   width: 300px;
   height: 300px;
+  border-radius: 10px;
 }
 
 .text {
-  background: gray;
+  font-size: 18px;
 }
 
 .header {
-  color: hsl(0, 0%, 100%);
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 400px;
 }
 
 .info {
-  background: purple;
-
   /* Even if parent is a flexbox,
   children still have to be declared as a flex item. */
   display: flex;
@@ -56,10 +55,9 @@ body {
   align-items: center;
   gap: 5px;
 
-  background: yellow;
   color: hsl(178, 100%, 50%);
   font-weight: 900px;
-  font-size: 15px;
+  font-size: 12px;
 }
 
 .info .right{
@@ -67,16 +65,14 @@ body {
   align-items: center;
   gap: 5px;
 
-  background: green;
-  font-size: 15px;
+  font-size: 12px;
 }
 
 .footer {
   display: flex;
   align-items: center;
   gap: 10px;
-  
-  background: cyan;
+
   font-size: 15px;
 }
 
