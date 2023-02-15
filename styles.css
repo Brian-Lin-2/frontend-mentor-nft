@@ -1,0 +1,27 @@
+body {
+    background: orange;
+}
+
+.container {
+    background: blue;
+}
+
+.text {
+    background: white;
+}
+
+.info {
+    background: purple;
+}
+
+.info .left {
+    background: yellow;
+}
+
+.info .right{
+    background: green;
+}
+
+.footer {
+    background: cyan;
+}
