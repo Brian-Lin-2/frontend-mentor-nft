@@ -36,7 +36,10 @@ body {
 }
 
 .equilibrium:hover {
-  /* Changes color to transparent cyan */
+  /* Changes cursor when hovered. */
+  cursor: pointer;
+
+  /* Changes color to transparent cyan. */
   opacity: 0.5;
 }
 
@@ -102,4 +105,5 @@ body {
 .header:hover,
 .name:hover {
   color: hsl(178, 100%, 50%);
+  cursor: pointer;
 }
