@@ -38,10 +38,44 @@ body {
 .equilibrium:hover {
   /* Changes cursor when hovered. */
   cursor: pointer;
-
-  /* Changes color to transparent cyan. */
-  opacity: 0.5;
 }
+
+.wrapper {
+  position: relative;
+}
+
+.ontop {
+  position: absolute;
+
+  /* Centers the image. */
+  inset: 0;
+  margin: auto;
+  background: hsl(178, 100%, 50%, 0.5);
+
+  /* Invisible until hovered. */
+  opacity: 0;
+}
+
+.ontop:hover {
+  opacity: 1;
+}
+
+.eye {
+  /* Centers the image. */
+  position: absolute;
+
+  /* Same as top, left, right, bottom. */
+  inset: 0;
+  margin: auto;
+
+  /* Invisible until hovered. */
+  opacity: 0;
+}
+
+.eye:hover {
+  cursor: pointer;
+}
+
 
 .text {
   font-size: 18px;
