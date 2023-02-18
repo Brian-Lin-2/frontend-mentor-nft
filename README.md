@@ -29,7 +29,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Image of program](https://user-images.githubusercontent.com/19761406/219833820-dde3f7e4-2172-4a75-8822-09ada12055fa.png)
+<img src="https://user-images.githubusercontent.com/19761406/219833820-dde3f7e4-2172-4a75-8822-09ada12055fa.png" height="50%" width=auto/>
+
 
 ![Image of hovered nft](https://user-images.githubusercontent.com/19761406/219833890-63148ba0-dd69-4de5-a7b4-6658f0ea1db7.png)
 
