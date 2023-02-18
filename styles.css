@@ -43,8 +43,9 @@ body {
   position: absolute;
 
   /* Centers the image. */
+  /* Same as top, left, right, bottom. */
   inset: 0;
-  margin: auto;
+
   background: hsl(178, 100%, 50%, 0.5);
 
   /* Invisible until hovered. */
@@ -58,10 +59,7 @@ body {
 .eye {
   /* Centers the image. */
   position: absolute;
-
-  /* Same as top, left, right, bottom. */
   inset: 0;
-  margin: auto;
 
   /* Add padding so eye's hover range is same size as the div. */
   /* Perhaps could be optimized better. */
@@ -75,7 +73,6 @@ body {
 .ontop:hover {
   /* Changes cursor when hovered. */
   cursor: pointer;
-
   opacity: 1;
 }
 
