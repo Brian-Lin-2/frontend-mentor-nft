@@ -35,11 +35,6 @@ body {
   border-radius: 10px;
 }
 
-.equilibrium:hover {
-  /* Changes cursor when hovered. */
-  cursor: pointer;
-}
-
 .wrapper {
   position: relative;
 }
@@ -54,10 +49,10 @@ body {
 
   /* Invisible until hovered. */
   opacity: 0;
-}
 
-.ontop:hover {
-  opacity: 1;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
 }
 
 .eye {
@@ -69,15 +64,18 @@ body {
   margin: auto;
 
   /* Add padding so eye's hover range is same size as the div. */
-  /* Could be optimized better. */
+  /* Perhaps could be optimized better. */
   padding: 42%;
 
   /* Invisible until hovered. */
   opacity: 0;
 }
 
-.eye:hover {
+.eye:hover,
+.ontop:hover {
+  /* Changes cursor when hovered. */
   cursor: pointer;
+
   opacity: 1;
 }
 
